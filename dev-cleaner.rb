@@ -5,21 +5,21 @@
 class DevCleaner < Formula
   desc "Clean development artifacts on macOS - Xcode, Gradle, node_modules"
   homepage "https://github.com/thanhdevapp/mac-dev-cleaner-cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.0/dev-cleaner_1.0.0_darwin_amd64.tar.gz"
-      sha256 "874c5bdd4952537a0a93cf1dc53cd5ac50275bf8c2f7609414f1232f3152e642"
+      url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.1/dev-cleaner_1.0.1_darwin_amd64.tar.gz"
+      sha256 "d1bc19f8c7f6200da07d5d6dc4eb50b3d017ff541da3750b87f7fdf78b127a52"
 
       def install
         bin.install "dev-cleaner"
       end
     end
     on_arm do
-      url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.0/dev-cleaner_1.0.0_darwin_arm64.tar.gz"
-      sha256 "9fbdf4c9b0d534d3f65d137397a6b40f99ffb5523970270c98e0145f087a3c8f"
+      url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.1/dev-cleaner_1.0.1_darwin_arm64.tar.gz"
+      sha256 "09be4087cd16dfa9a103ffcf2f3175d7eee6e457ad100f87252d46d89080be10"
 
       def install
         bin.install "dev-cleaner"
@@ -30,8 +30,8 @@ class DevCleaner < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.0/dev-cleaner_1.0.0_linux_amd64.tar.gz"
-        sha256 "3937746c78563f473333c78670366e5a171f61bd454048b5299871157165efda"
+        url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.1/dev-cleaner_1.0.1_linux_amd64.tar.gz"
+        sha256 "5c65d84163999a2b3c381ebee45ccc71b571aa375b88ebbbe32df673b2596774"
 
         def install
           bin.install "dev-cleaner"
@@ -40,8 +40,8 @@ class DevCleaner < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.0/dev-cleaner_1.0.0_linux_arm64.tar.gz"
-        sha256 "915b24b98452953b546ba34ac8cb8b033208b48f5f16e20d92c9d5d5b4b86c3b"
+        url "https://github.com/thanhdevapp/mac-dev-cleaner-cli/releases/download/v1.0.1/dev-cleaner_1.0.1_linux_arm64.tar.gz"
+        sha256 "7f7cd308ac518f373359eaa3b3033729a6c420df247b7a56b967c1d7f2cab3a8"
 
         def install
           bin.install "dev-cleaner"
