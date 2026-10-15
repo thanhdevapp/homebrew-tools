@@ -1,6 +1,6 @@
 cask "agmon" do
-  version "1.0.0"
-  sha256 "08a114647417c18ed069cccdbb11ead5b76f41986e4f7bcf0402ef9c5c46b669"
+  version "0.0.1"
+  sha256 "0350061ea6da2afd07cf448745cf6244ec753c37702349743f7dcb46f3403b92"
 
   url "https://github.com/thanhdevapp/agent-factory/releases/download/v#{version}/AGMon-#{version}-arm64.dmg"
   name "AGMon"
