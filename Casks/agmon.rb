@@ -7,7 +7,7 @@ cask "agmon" do
   desc "Realtime AI Agent Office, Multi-Terminal Grid & Agentic Development Environment"
   homepage "https://github.com/thanhdevapp/agent-factory"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   app "AGMon.app"
