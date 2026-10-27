@@ -1,6 +1,6 @@
 cask "agmon" do
   version "0.0.1"
-  sha256 "8d36932ca9830655ea39d971ee791fc8401ef27544b8dcede7380d5167961b17"
+  sha256 "a02be6f90c493c145d6bcd1c1057481d991fca394879caa6f82224a6f7a0fd9e"
 
   url "https://github.com/thanhdevapp/homebrew-tools/releases/download/agmon-v#{version}/AGMon-#{version}-arm64.dmg"
   name "AGMon"
